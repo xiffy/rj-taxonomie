@@ -1,0 +1,47 @@
+name: Instance validation
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create Artifacts
+        run: './script/cicd/make-artifacts.bat'
+        # creates a usable list for arelle of available taxonomies
+      - name: Create list
+        run: './script/cicd/make-packagelist.bat'
+        # passes the list to the global scope
+      - name: Read list
+        run: 'type ./artifacts/package_list.env >> $env:GITHUB_ENV'
+        # create a list of testable files
+      - name: Create list of available instances
+        run: './script/cicd/make-instancelist.bat'
+      - name: Read instancelist
+        run: 'type ./instances/instance_list.env >> $env:GITHUB_ENV'
+
+      - name: Validate instances using Arelle
+        run: './script/arelle/arelleCmdline.exe --packages "$env:PACKAGE_LIST" --file "$env:INSTANCE_LIST" -v --logfile=arelle-instance.log --loglevel=warning'
+      - name: Check for errors
+        run: 'script\cicd\catch_errors.bat arelle-instance.log'
+      - name: Errors found
+        if: failure()
+        run: echo "::error file=arelle-instance.log::$(cat arelle-instance.log)"
+
+      #  --logFile arelle-instance-log.xml
+
+      #    - name: Read arelle-instance-log.xml
+      #      id: package
+      #      uses: juliangruber/read-file-action@v1.1.6
+      #      with:
+      #        path: ./arelle-instance-log.xml
+      #
+      #    - name: echo line
+      #      run: echo "${{ steps.getxml.outputs.info }}"
+      #
+      - uses: actions/upload-artifact@v3
+        with:
+          name: instance(s)
+          path: |
+            ${{ github.workspace }}/instances/test.xbrl

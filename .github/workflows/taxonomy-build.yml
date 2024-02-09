@@ -1,0 +1,67 @@
+name: Taxonomy validation
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - artifacts/**
+jobs:
+  build:
+    runs-on: windows-latest
+    name: Build Zip and validate packages
+    steps:
+      - uses: actions/checkout@v3
+      # creates zipfiles in the artifacts directory
+      - name: Create Artifacts
+        run: './script/cicd/make-artifacts.bat '
+      # creates a usable list for arelle of available taxonomies
+      - name: Create list
+        run: './script/cicd/make-packagelist.bat'
+      # passes the list to the global scope
+      - name: Read list
+        run: 'type ./artifacts/package_list.env >> $env:GITHUB_ENV'
+      # creates a usable list for arelle of available entrypoints
+      - name: Find entrypoints
+        run: './script/cicd/make-entrypointlist.bat'
+      # passes the list to the global scope
+      - name: Read entrypoints
+        run: 'type ./taxonomies/entrypoint_list.env >> $env:GITHUB_ENV'
+
+      # validate the taxonomies and load some files ....
+      - name: Validate taxonomies and load entrypoints
+        run: './script/arelle/arelleCmdline.exe --packages "$env:PACKAGE_LIST" --file "$env:ENTRYPOINT_LIST" --validate --logLevel=warning --logFile=arelle-taxo.log'
+      - name: Check for errors
+        run: 'script\cicd\catch_errors.bat arelle-taxo.log'
+      - name: Errors found
+        if: failure()
+        run: echo "::error file=arelle-taxo.log::$(cat arelle-taxo.log)"
+
+      #    - name: Read arelle-taxonomy-log.xml
+      #      id: package
+      #      uses: juliangruber/read-file-action@v1.1.6
+      #      with:
+      #        path: ./arelle-taxonomy-log.xml
+      #
+      #    - name: Echo arelle-taxonomy-log.xml
+      #      run: echo "${{ steps.package.outputs.content }}"
+      #
+      #    - name: Get Line Rate from output
+      #      id: get_line_rate
+      #      shell: pwsh
+      #      run: |
+      #        [System.Xml.XmlDocument] $document = New-Object System.Xml.XmlDocument
+      #        $document.load(".\arelle-taxonomy-log.xml")
+      #        $errors = $document.SelectSingleNode('//entry[@level="error"]')
+      #        Write-Output "::set-output name=errors::$errors"
+      #
+      #    - name: Echo
+      #      run: echo "${{ steps.get_line_rate.outputs.errors }}"
+      #
+      - uses: actions/upload-artifact@v3
+        with:
+          name: taxonomy-packages
+          path: |
+            ${{ github.workspace }}/artifacts/*.zip
+            ${{ github.workspace }}/arelle-tax.log
+#          ${{ github.workspace }}/artifacts/rj_taxonomy_2024.zip
+#          ${{ github.workspace }}/artifacts/nen_taxonomy_2024.zip
+#          ${{ github.workspace }}/artifacts/iso_taxonomy_2024.zip

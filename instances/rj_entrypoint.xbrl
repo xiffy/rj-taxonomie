@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl xml:lang="en" xmlns="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:rj="https://www.nltaxonomie.nl/rj/taxonomy/2025-01-01/rj" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:href="https://www.nltaxonomie.nl/rj/2025-01-01/rj_entrypoint.xsd" xlink:type="simple" />
+</xbrl>
