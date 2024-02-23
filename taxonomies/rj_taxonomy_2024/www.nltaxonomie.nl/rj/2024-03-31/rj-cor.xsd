@@ -4103,4 +4103,5 @@
   <xsd:element name="ProfitAppropriationDomain" id="rj_ProfitAppropriationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationBefore" id="rj_ProfitAppropriationBefore" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationAfter" id="rj_ProfitAppropriationAfter" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialStatementsConsolidated" id="rj_FinancialStatementsConsolidated" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>
