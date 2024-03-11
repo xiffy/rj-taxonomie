@@ -1,3 +1,0 @@
-2022-08-08 22:21 UTC
-arelleCommit 55cb2caa 
-edgarRendererCommit a25bef8
