@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="https://www.nltaxonomie.nl/rj/2025-01-01/rj_entrypoint" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rj_entrypoint="https://www.nltaxonomie.nl/rj/2025-01-01/rj_entrypoint" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj_entrypoint-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj_entrypoint-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj_entrypoint-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType id="rj_AnnualReportingGuidelines394" roleURI="urn:rj:linkrole:annual-reporting-guidelines-394">
+        <link:definition>RJ 394 - Tussentijdse berichten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines135" roleURI="urn:rj:linkrole:annual-reporting-guidelines-135">
+        <link:definition>RJ 135 - Algemene grondslagen voor de bepaling van het resultaat</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines404" roleURI="urn:rj:linkrole:annual-reporting-guidelines-404">
+        <link:definition>RJ 404 - Bezoldigingsverslag en remuneratierapport</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines405" roleURI="urn:rj:linkrole:annual-reporting-guidelines-405">
+        <link:definition>RJ 405 - Verslag raad van commissarissen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines611" roleURI="urn:rj:linkrole:annual-reporting-guidelines-611">
+        <link:definition>RJ 611 - Premiepensioeninstellingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines100" roleURI="urn:rj:linkrole:annual-reporting-guidelines-100">
+        <link:definition>RJ 100 - Inleiding</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines110" roleURI="urn:rj:linkrole:annual-reporting-guidelines-110">
+        <link:definition>RJ 110 - Doelstellingen en uitgangspunten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines115" roleURI="urn:rj:linkrole:annual-reporting-guidelines-115">
+        <link:definition>RJ 115 - Criteria voor opname en vermelding van gegevens</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines120" roleURI="urn:rj:linkrole:annual-reporting-guidelines-120">
+        <link:definition>RJ 120 - Prijsgrondslagen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines121" roleURI="urn:rj:linkrole:annual-reporting-guidelines-121">
+        <link:definition>RJ 121 - Bijzondere waardeverminderingen van vaste activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines122" roleURI="urn:rj:linkrole:annual-reporting-guidelines-122">
+        <link:definition>RJ 122 - Prijsgrondslagen voor vreemde valuta</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines140" roleURI="urn:rj:linkrole:annual-reporting-guidelines-140">
+        <link:definition>RJ 140 - Stelselwijzigingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines145" roleURI="urn:rj:linkrole:annual-reporting-guidelines-145">
+        <link:definition>RJ 145 - Schattingswijzigingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines150" roleURI="urn:rj:linkrole:annual-reporting-guidelines-150">
+        <link:definition>RJ 150 - Foutherstel</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines160" roleURI="urn:rj:linkrole:annual-reporting-guidelines-160">
+        <link:definition>RJ 160 - Gebeurtenissen na balansdatum</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines170" roleURI="urn:rj:linkrole:annual-reporting-guidelines-170">
+        <link:definition>RJ 170 - Discontinuïteit en ernstige onzekerheid over continuïteit</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines190" roleURI="urn:rj:linkrole:annual-reporting-guidelines-190">
+        <link:definition>RJ 190 - Overige algemene uiteenzettingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines210" roleURI="urn:rj:linkrole:annual-reporting-guidelines-210">
+        <link:definition>RJ 210 - Immateriële vaste activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines212" roleURI="urn:rj:linkrole:annual-reporting-guidelines-212">
+        <link:definition>RJ 212 - Materiële vaste activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines213" roleURI="urn:rj:linkrole:annual-reporting-guidelines-213">
+        <link:definition>RJ 213 - Vastgoedbeleggingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines214" roleURI="urn:rj:linkrole:annual-reporting-guidelines-214">
+        <link:definition>RJ 214 - Financiële vaste activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines215" roleURI="urn:rj:linkrole:annual-reporting-guidelines-215">
+        <link:definition>RJ 215 - Joint ventures</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines216" roleURI="urn:rj:linkrole:annual-reporting-guidelines-216">
+        <link:definition>RJ 216 - Fusies en overnames</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines217" roleURI="urn:rj:linkrole:annual-reporting-guidelines-217">
+        <link:definition>RJ 217 - Consolidatie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines220" roleURI="urn:rj:linkrole:annual-reporting-guidelines-220">
+        <link:definition>RJ 220 - Voorraden</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines221" roleURI="urn:rj:linkrole:annual-reporting-guidelines-221">
+        <link:definition>RJ 221 - Onderhanden projecten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines222" roleURI="urn:rj:linkrole:annual-reporting-guidelines-222">
+        <link:definition>RJ 222 - Vorderingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines224" roleURI="urn:rj:linkrole:annual-reporting-guidelines-224">
+        <link:definition>RJ 224 - Overlopende activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines226" roleURI="urn:rj:linkrole:annual-reporting-guidelines-226">
+        <link:definition>RJ 226 - Effecten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines228" roleURI="urn:rj:linkrole:annual-reporting-guidelines-228">
+        <link:definition>RJ 228 - Liquide middelen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines240" roleURI="urn:rj:linkrole:annual-reporting-guidelines-240">
+        <link:definition>RJ 240 - Eigen vermogen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines252" roleURI="urn:rj:linkrole:annual-reporting-guidelines-252">
+        <link:definition>RJ 252 - Voorzieningen, niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines254" roleURI="urn:rj:linkrole:annual-reporting-guidelines-254">
+        <link:definition>RJ 254 - Schulden</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines258" roleURI="urn:rj:linkrole:annual-reporting-guidelines-258">
+        <link:definition>RJ 258 - Overlopende passiva</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines265" roleURI="urn:rj:linkrole:annual-reporting-guidelines-265">
+        <link:definition>RJ 265 - Overzicht van het totaalresultaat van de rechtspersoon</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines270" roleURI="urn:rj:linkrole:annual-reporting-guidelines-270">
+        <link:definition>RJ 270 - Winst-en-verliesrekening</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines271" roleURI="urn:rj:linkrole:annual-reporting-guidelines-271">
+        <link:definition>RJ 271 - Personeelsbeloningen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines272" roleURI="urn:rj:linkrole:annual-reporting-guidelines-272">
+        <link:definition>RJ 272 - Belastingen naar de winst</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines273" roleURI="urn:rj:linkrole:annual-reporting-guidelines-273">
+        <link:definition>RJ 273 - Rentelasten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines274" roleURI="urn:rj:linkrole:annual-reporting-guidelines-274">
+        <link:definition>RJ 274 - Overheidssubsidies</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines275" roleURI="urn:rj:linkrole:annual-reporting-guidelines-275">
+        <link:definition>RJ 275 - Op aandelen gebaseerde betalingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines290" roleURI="urn:rj:linkrole:annual-reporting-guidelines-290">
+        <link:definition>RJ 290 - Financiële instrumenten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines292" roleURI="urn:rj:linkrole:annual-reporting-guidelines-292">
+        <link:definition>RJ 292 - Leasing</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines300" roleURI="urn:rj:linkrole:annual-reporting-guidelines-300">
+        <link:definition>RJ 300 - Functie en indeling</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines315" roleURI="urn:rj:linkrole:annual-reporting-guidelines-315">
+        <link:definition>RJ 315 - Vrijstellingen voor middelgrote rechtspersonen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines330" roleURI="urn:rj:linkrole:annual-reporting-guidelines-330">
+        <link:definition>RJ 330 - Verbonden partijen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines340" roleURI="urn:rj:linkrole:annual-reporting-guidelines-340">
+        <link:definition>RJ 340 - Winst per aandeel</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines345" roleURI="urn:rj:linkrole:annual-reporting-guidelines-345">
+        <link:definition>RJ 345 - Beëindiging van bedrijfsactiviteiten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines350" roleURI="urn:rj:linkrole:annual-reporting-guidelines-350">
+        <link:definition>RJ 350 - Gesegmenteerde informatie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines360" roleURI="urn:rj:linkrole:annual-reporting-guidelines-360">
+        <link:definition>RJ 360 - Kasstroomoverzicht</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines390" roleURI="urn:rj:linkrole:annual-reporting-guidelines-390">
+        <link:definition>RJ 390 - Overige in de toelichting op te nemen informatie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines396" roleURI="urn:rj:linkrole:annual-reporting-guidelines-396">
+        <link:definition>RJ 396 - Openbaarmaking</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines400" roleURI="urn:rj:linkrole:annual-reporting-guidelines-400">
+        <link:definition>RJ 400 - Bestuursverslag</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines410" roleURI="urn:rj:linkrole:annual-reporting-guidelines-410">
+        <link:definition>RJ 410 - Overige gegevens</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines420" roleURI="urn:rj:linkrole:annual-reporting-guidelines-420">
+        <link:definition>RJ 420 - Winstbestemming, verwerking verlies</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines430" roleURI="urn:rj:linkrole:annual-reporting-guidelines-430">
+        <link:definition>RJ 430 - Kerncijfers, kengetallen en meerjarenoverzichten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines600" roleURI="urn:rj:linkrole:annual-reporting-guidelines-600">
+        <link:definition>RJ 600 - Banken</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines605" roleURI="urn:rj:linkrole:annual-reporting-guidelines-605">
+        <link:definition>RJ 605 - Verzekeringsmaatschappijen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines610" roleURI="urn:rj:linkrole:annual-reporting-guidelines-610">
+        <link:definition>RJ 610 - Pensioenfondsen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines615" roleURI="urn:rj:linkrole:annual-reporting-guidelines-615">
+        <link:definition>RJ 615 - Beleggingsentiteiten</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines620" roleURI="urn:rj:linkrole:annual-reporting-guidelines-620">
+        <link:definition>RJ 620 - Coöperaties</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines630" roleURI="urn:rj:linkrole:annual-reporting-guidelines-630">
+        <link:definition>RJ 630 - Commerciële stichtingen en verenigingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines640" roleURI="urn:rj:linkrole:annual-reporting-guidelines-640">
+        <link:definition>RJ 640 - Organisaties-zonder-winststreven</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines645" roleURI="urn:rj:linkrole:annual-reporting-guidelines-645">
+        <link:definition>RJ 645 - Toegelaten instellingen volkshuisvesting</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines650" roleURI="urn:rj:linkrole:annual-reporting-guidelines-650">
+        <link:definition>RJ 650 - Fondsenwervende instellingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines655" roleURI="urn:rj:linkrole:annual-reporting-guidelines-655">
+        <link:definition>RJ 655 - Zorginstellingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines660" roleURI="urn:rj:linkrole:annual-reporting-guidelines-660">
+        <link:definition>RJ 660 - Onderwijsinstellingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines920" roleURI="urn:rj:linkrole:annual-reporting-guidelines-920">
+        <link:definition>RJ 920 - Handreiking voor maatschappelijke verslaggeving</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelines921" roleURI="urn:rj:linkrole:annual-reporting-guidelines-921">
+        <link:definition>RJ 921 - Handreiking toepassing IAS 19R in Nederlandse pensioensituatie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="rj_AnnualReportingGuidelinesExpressions" roleURI="urn:rj:linkrole:annual-reporting-guidelines-expressions">
+        <link:definition>RJ uitingen</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines100Title" name="AnnualReportingGuidelines100Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines110Title" name="AnnualReportingGuidelines110Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines115Title" name="AnnualReportingGuidelines115Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines120Title" name="AnnualReportingGuidelines120Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines121Title" name="AnnualReportingGuidelines121Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines122Title" name="AnnualReportingGuidelines122Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines140Title" name="AnnualReportingGuidelines140Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines145Title" name="AnnualReportingGuidelines145Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines150Title" name="AnnualReportingGuidelines150Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines160Title" name="AnnualReportingGuidelines160Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines170Title" name="AnnualReportingGuidelines170Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines190Title" name="AnnualReportingGuidelines190Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines210Title" name="AnnualReportingGuidelines210Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines212Title" name="AnnualReportingGuidelines212Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines213Title" name="AnnualReportingGuidelines213Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines214Title" name="AnnualReportingGuidelines214Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines215Title" name="AnnualReportingGuidelines215Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines216Title" name="AnnualReportingGuidelines216Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines217Title" name="AnnualReportingGuidelines217Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines220Title" name="AnnualReportingGuidelines220Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines221Title" name="AnnualReportingGuidelines221Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines222Title" name="AnnualReportingGuidelines222Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines224Title" name="AnnualReportingGuidelines224Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines226Title" name="AnnualReportingGuidelines226Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines228Title" name="AnnualReportingGuidelines228Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines240Title" name="AnnualReportingGuidelines240Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines252Title" name="AnnualReportingGuidelines252Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines254Title" name="AnnualReportingGuidelines254Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines258Title" name="AnnualReportingGuidelines258Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines265Title" name="AnnualReportingGuidelines265Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines270Title" name="AnnualReportingGuidelines270Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines271Title" name="AnnualReportingGuidelines271Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines272Title" name="AnnualReportingGuidelines272Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines273Title" name="AnnualReportingGuidelines273Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines274Title" name="AnnualReportingGuidelines274Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines275Title" name="AnnualReportingGuidelines275Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines290Title" name="AnnualReportingGuidelines290Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines292Title" name="AnnualReportingGuidelines292Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines300Title" name="AnnualReportingGuidelines300Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines315Title" name="AnnualReportingGuidelines315Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines330Title" name="AnnualReportingGuidelines330Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines340Title" name="AnnualReportingGuidelines340Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines345Title" name="AnnualReportingGuidelines345Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines350Title" name="AnnualReportingGuidelines350Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines360Title" name="AnnualReportingGuidelines360Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines390Title" name="AnnualReportingGuidelines390Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines394Title" name="AnnualReportingGuidelines394Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines396Title" name="AnnualReportingGuidelines396Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines400Title" name="AnnualReportingGuidelines400Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines404Title" name="AnnualReportingGuidelines404Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines405Title" name="AnnualReportingGuidelines405Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines410Title" name="AnnualReportingGuidelines410Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines420Title" name="AnnualReportingGuidelines420Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines430Title" name="AnnualReportingGuidelines430Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines600Title" name="AnnualReportingGuidelines600Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines605Title" name="AnnualReportingGuidelines605Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines610Title" name="AnnualReportingGuidelines610Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines611Title" name="AnnualReportingGuidelines611Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines615Title" name="AnnualReportingGuidelines615Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines620Title" name="AnnualReportingGuidelines620Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines630Title" name="AnnualReportingGuidelines630Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines640Title" name="AnnualReportingGuidelines640Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines645Title" name="AnnualReportingGuidelines645Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines650Title" name="AnnualReportingGuidelines650Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines655Title" name="AnnualReportingGuidelines655Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines660Title" name="AnnualReportingGuidelines660Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines920Title" name="AnnualReportingGuidelines920Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelines921Title" name="AnnualReportingGuidelines921Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelinesExpressions202013Title" name="AnnualReportingGuidelinesExpressions202013Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelinesExpressions202015Title" name="AnnualReportingGuidelinesExpressions202015Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="rj_AnnualReportingGuidelinesExpressionsTitle" name="AnnualReportingGuidelinesExpressionsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xsd:schema>
