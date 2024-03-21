@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:label="http://xbrl.org/2008/label" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
-  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
-  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:label="http://xbrl.org/2008/label">
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
-    <link:label id="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en" xlink:label="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">RJ - Common practice</link:label>
-    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_AnnualReportingGuidelinesCommonPracticeTitle_loc" xlink:to="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en" xlink:type="arc"/>
-    <link:loc xlink:href="rj-common-practice-all.xsd#rj_AnnualReportingGuidelinesCommonPracticeTitle" xlink:label="rj_AnnualReportingGuidelinesCommonPracticeTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:type="locator" xlink:href="rj-common-practice-all.xsd#rj_AnnualReportingGuidelinesCommonPracticeTitle" xlink:label="rj_AnnualReportingGuidelinesCommonPracticeTitle_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en">RJ - Common practice</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_AnnualReportingGuidelinesCommonPracticeTitle_loc" xlink:to="rj_AnnualReportingGuidelinesCommonPracticeTitle_label_en"/>
   </link:labelLink>
-  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
-    <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj_AnnualReportingGuidelinesCommonPractice_loc" xlink:to="rj_AnnualReportingGuidelinesCommonPractice_label_en" xlink:type="arc"/>
-    <label:label id="rj_AnnualReportingGuidelinesCommonPractice_label_en" xlink:label="rj_AnnualReportingGuidelinesCommonPractice_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">RJ - Common practice</label:label>
-    <link:loc xlink:href="rj-common-practice-all.xsd#rj_AnnualReportingGuidelinesCommonPractice" xlink:label="rj_AnnualReportingGuidelinesCommonPractice_loc" xlink:type="locator"/>
-  </gen:link>
 </link:linkbase>

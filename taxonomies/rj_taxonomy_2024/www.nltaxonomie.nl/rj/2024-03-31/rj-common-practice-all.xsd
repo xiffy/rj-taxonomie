@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema targetNamespace="https://www.nltaxonomie.nl/rj/2024-03-31/rj-common-practice-all" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rj-cp-all="https://www.nltaxonomie.nl/rj/2024-03-31/rj-common-practice-all" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+
+<xsd:schema targetNamespace="https://www.nltaxonomie.nl/rj/2024-03-31/rj-common-practice-all" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rj-cp-all="https://www.nltaxonomie.nl/rj/2024-03-31/rj-common-practice-all" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
   <xsd:annotation>
     <xsd:appinfo>
-      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
-      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-gen-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-gen-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rj-common-practice-all-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:roleType roleURI="urn:rj:linkrole:annual-reporting-guidelines-common-practice" id="rj_AnnualReportingGuidelinesCommonPractice">
         <link:definition>RJ - Common practice</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
@@ -13,5 +16,5 @@
     </xsd:appinfo>
   </xsd:annotation>
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
-  <xsd:element abstract="true" id="rj_AnnualReportingGuidelinesCommonPracticeTitle" name="AnnualReportingGuidelinesCommonPracticeTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element name="AnnualReportingGuidelinesCommonPracticeTitle" id="rj_AnnualReportingGuidelinesCommonPracticeTitle" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>
