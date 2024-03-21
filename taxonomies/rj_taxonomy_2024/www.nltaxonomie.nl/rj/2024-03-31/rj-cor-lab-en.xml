@@ -4,14 +4,10 @@
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel"/>
   <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
-  <link:roleRef roleURI="http://www.nltaxonomie.nl/2016/labelrole/domainSpecificLabel" xlink:type="simple" xlink:href="http://www.nltaxonomie.nl/2016/xbrl/sbr-labelroles.xsd#sbr-l_domainSpecificLabel"/>
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
-    <link:loc xlink:type="locator" xlink:href="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor.xsd#bw2-titel9_Equity" xlink:label="bw2-titel9_Equity_loc"/>
-    <link:label xlink:type="resource" xlink:label="bw2-titel9_Equity_domainSpecificLabel_en" xlink:role="http://www.nltaxonomie.nl/2016/labelrole/domainSpecificLabel" xml:lang="en" id="bw2-titel9_Equity_domainSpecificLabel_en">Net assets</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-titel9_Equity_loc" xlink:to="bw2-titel9_Equity_domainSpecificLabel_en"/>
     <link:loc xlink:type="locator" xlink:href="rj-cor.xsd#rj_ALMPolicyDescription" xlink:label="rj_ALMPolicyDescription_loc"/>
     <link:label xlink:type="resource" xlink:label="rj_ALMPolicyDescription_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj_ALMPolicyDescription_label_en">Description of ALM policy</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_ALMPolicyDescription_loc" xlink:to="rj_ALMPolicyDescription_label_en"/>
