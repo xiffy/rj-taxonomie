@@ -8,6 +8,12 @@
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
   <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+  
+  	<link:loc xlink:type="locator" xlink:href="rj-cor.xsd#rj_GeneralNotesDisclosure" xlink:label="rj_GeneralNotesDisclosure_loc"/>
+	<link:label xlink:type="resource" xlink:label="rj_GeneralNotesDisclosure_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">General notes</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_GeneralNotesDisclosure_loc" xlink:to="rj_GeneralNotesDisclosure_label_en"/>
+
+  
     <link:loc xlink:type="locator" xlink:href="rj-cor.xsd#rj_ALMPolicyDescription" xlink:label="rj_ALMPolicyDescription_loc"/>
     <link:label xlink:type="resource" xlink:label="rj_ALMPolicyDescription_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj_ALMPolicyDescription_label_en">Description of ALM policy</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_ALMPolicyDescription_loc" xlink:to="rj_ALMPolicyDescription_label_en"/>

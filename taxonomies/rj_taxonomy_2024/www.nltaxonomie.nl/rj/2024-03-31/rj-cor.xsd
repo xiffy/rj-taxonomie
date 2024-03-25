@@ -15,6 +15,9 @@
   <xsd:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
   <xsd:import namespace="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor" schemaLocation="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor.xsd"/>
   <xsd:element name="ALMPolicyDescription" id="rj_ALMPolicyDescription" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  
+  <xsd:element name="GeneralNotesDisclosure" id="rj_GeneralNotesDisclosure" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  
   <xsd:element name="AccommodationCosts" id="rj_AccommodationCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
   <xsd:element name="AccommodationCostsDisclosure" id="rj_AccommodationCostsDisclosure" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="AccommodationCostsPolicy" id="rj_AccommodationCostsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
