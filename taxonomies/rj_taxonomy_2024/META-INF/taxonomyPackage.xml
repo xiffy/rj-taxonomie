@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
-	<tp:identifier>https://www.nltaxonomie.nl/rj/2025-01-01</tp:identifier>
-	<tp:name>RJ Taxonomy 2024</tp:name>
-	<tp:description></tp:description>
-	<tp:version>0.1.0</tp:version>
+<tp:taxonomyPackage xml:lang="nl" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+	<tp:identifier>https://www.nltaxonomie.nl/rj/2024-03-31</tp:identifier>
+	<tp:name>RJ taxonomie versie 31 maart 2024</tp:name>
+	<tp:description>XBRL taxonomie van de Richtlijnen voor de Jaarverslaggeving.</tp:description>
+	<tp:version>31 maart 2024 (testversie)</tp:version>
 	<tp:publisher>Raad voor de Jaarverslaggeving</tp:publisher>
-	<tp:publisherURL>www.nltaxonomie.nl/rj</tp:publisherURL>
+	<tp:publisherURL>https://www.nltaxonomie.nl/rj</tp:publisherURL>
 	<tp:publisherCountry>NL</tp:publisherCountry>
-	<tp:publicationDate>2025-01-01</tp:publicationDate>
+	<tp:publicationDate>2024-03-31</tp:publicationDate>
 	<tp:entryPoints>
 		<tp:entryPoint>
-			<tp:name>RJ Core</tp:name>
-			<tp:description></tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2025-01-01/rj_cor.xsd" />
+			<tp:name>Richtlijnen voor de Jaarverslaggeving - Core</tp:name>
+			<tp:description>Core schema van de Richtlijnen voor de Jaarverslaggeving</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2024-03-31/rj-cor.xsd" />
 		</tp:entryPoint>
     <tp:entryPoint>
-			<tp:name>RJ Common Practice Entrypoint</tp:name>
-			<tp:description></tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2025-01-01/rj-common-practice_entrypoint.xsd" />
+			<tp:name>Common Practice elementen in de jaarverslaggeving - all</tp:name>
+			<tp:description>All schema van common practice elementen in de jaarverslaggeving</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2024-03-31/rj-common-practice-all.xsd" />
 		</tp:entryPoint>
     <tp:entryPoint>
-			<tp:name>RJk Entrypoint</tp:name>
-			<tp:description>Richtlijnen voor de jaarverslaggeving voor micro- en kleine rechtspersonen (RJk)</tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2025-01-01/rjk_entrypoint.xsd" />
+			<tp:name>Richtlijnen voor de Jaarverslaggeving voor micro- en kleine rechtspersonen - all</tp:name>
+			<tp:description>All schema van de Richtlijnen voor de jaarverslaggeving voor micro- en kleine rechtspersonen (RJk)</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2024-03-31/rjk-all.xsd" />
 		</tp:entryPoint>
     <tp:entryPoint>
-			<tp:name>RJ Entrypoint</tp:name>
-			<tp:description>Richtlijnen voor de jaarverslaggeving voor grote en middelgrote rechtspersonen (RJ)</tp:description>
-			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2025-01-01/rj_entrypoint.xsd" />
+			<tp:name>Richtlijnen voor de Jaarverslaggeving voor grote en middelgrote rechtspersonen - all</tp:name>
+			<tp:description>All schema van de Richtlijnen voor de jaarverslaggeving voor grote en middelgrote rechtspersonen (RJ)</tp:description>
+			<tp:entryPointDocument href="https://www.nltaxonomie.nl/rj/2024-03-31/rj-all.xsd" />
 		</tp:entryPoint>
 	</tp:entryPoints>
 </tp:taxonomyPackage>
