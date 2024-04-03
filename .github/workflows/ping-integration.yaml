@@ -37,5 +37,5 @@ jobs:
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: Bearer ${{ secrets.PAT }}" \
           -H "X-GitHub-Api-Version: 2022-11-28" \
-          https://api.github.com/repos/xiffy/sbr.nl-web/actions/workflows/integration.yaml/dispatches \
+          https://api.github.com/repos/sbr-nl/cicd/actions/workflows/integration.yaml/dispatches \
           -d '{"ref":"${{ github.ref }}", "inputs": {"branch": "${{ github.ref_name }}", "repository": "${{ github.repository }}", "taxonomy_name": "${{ env.TAX_NAME }}", "message": "Ping! " }}'
