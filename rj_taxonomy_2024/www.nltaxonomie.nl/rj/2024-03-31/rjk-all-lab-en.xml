@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:label="http://xbrl.org/2008/label">
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA1Title" xlink:label="rj-AnnualReportingGuidelinesA1Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA1Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA1Title_label_en">A1 - Introduction, status, objectives and principles</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA1Title_loc" xlink:to="rj-AnnualReportingGuidelinesA1Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA2Title" xlink:label="rj-AnnualReportingGuidelinesA2Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA2Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA2Title_label_en">A2 - Accounting and valuation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA2Title_loc" xlink:to="rj-AnnualReportingGuidelinesA2Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA3Title" xlink:label="rj-AnnualReportingGuidelinesA3Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA3Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA3Title_label_en">A3 - Changes in accounting policies, changes in accounting estimates and prior period errors</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA3Title_loc" xlink:to="rj-AnnualReportingGuidelinesA3Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA4Title" xlink:label="rj-AnnualReportingGuidelinesA4Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA4Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA4Title_label_en">A4 - Subsequent events</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA4Title_loc" xlink:to="rj-AnnualReportingGuidelinesA4Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA6Title" xlink:label="rj-AnnualReportingGuidelinesA6Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA6Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA6Title_label_en">A6 - Publication</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA6Title_loc" xlink:to="rj-AnnualReportingGuidelinesA6Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesA8Title" xlink:label="rj-AnnualReportingGuidelinesA8Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesA8Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesA8Title_label_en">A1 - Introduction, status, objectives and principles</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesA8Title_loc" xlink:to="rj-AnnualReportingGuidelinesA8Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB1Title" xlink:label="rj-AnnualReportingGuidelinesB1Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB1Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB1Title_label_en">B1 - Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB1Title_loc" xlink:to="rj-AnnualReportingGuidelinesB1Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB2Title" xlink:label="rj-AnnualReportingGuidelinesB2Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB2Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB2Title_label_en">B2 - Property, plant and equipment and investment property</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB2Title_loc" xlink:to="rj-AnnualReportingGuidelinesB2Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB3Title" xlink:label="rj-AnnualReportingGuidelinesB3Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB3Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB3Title_label_en">B3 - Financial assets and consolidation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB3Title_loc" xlink:to="rj-AnnualReportingGuidelinesB3Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB4Title" xlink:label="rj-AnnualReportingGuidelinesB4Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB4Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB4Title_label_en">B4 - Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB4Title_loc" xlink:to="rj-AnnualReportingGuidelinesB4Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB5Title" xlink:label="rj-AnnualReportingGuidelinesB5Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB5Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB5Title_label_en">B5 - Receivables and accrued income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB5Title_loc" xlink:to="rj-AnnualReportingGuidelinesB5Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB6Title" xlink:label="rj-AnnualReportingGuidelinesB6Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB6Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB6Title_label_en">B6 - Securities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB6Title_loc" xlink:to="rj-AnnualReportingGuidelinesB6Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB7Title" xlink:label="rj-AnnualReportingGuidelinesB7Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB7Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB7Title_label_en">B7 - Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB7Title_loc" xlink:to="rj-AnnualReportingGuidelinesB7Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB8Title" xlink:label="rj-AnnualReportingGuidelinesB8Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB8Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB8Title_label_en">B8 - Equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB8Title_loc" xlink:to="rj-AnnualReportingGuidelinesB8Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB9Title" xlink:label="rj-AnnualReportingGuidelinesB9Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB9Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB9Title_label_en">B9 - Liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB9Title_loc" xlink:to="rj-AnnualReportingGuidelinesB9Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB10Title" xlink:label="rj-AnnualReportingGuidelinesB10Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB10Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB10Title_label_en">B10 - Provisions and contingent liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB10Title_loc" xlink:to="rj-AnnualReportingGuidelinesB10Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB11Title" xlink:label="rj-AnnualReportingGuidelinesB11Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB11Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB11Title_label_en">B11 - Leasing</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB11Title_loc" xlink:to="rj-AnnualReportingGuidelinesB11Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB12Title" xlink:label="rj-AnnualReportingGuidelinesB12Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB12Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB12Title_label_en">B12 - Financial instruments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB12Title_loc" xlink:to="rj-AnnualReportingGuidelinesB12Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB13Title" xlink:label="rj-AnnualReportingGuidelinesB13Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB13Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB13Title_label_en">B13 - Income statement</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB13Title_loc" xlink:to="rj-AnnualReportingGuidelinesB13Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB14Title" xlink:label="rj-AnnualReportingGuidelinesB14Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB14Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB14Title_label_en">B14 - Employee benefits</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB14Title_loc" xlink:to="rj-AnnualReportingGuidelinesB14Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB15Title" xlink:label="rj-AnnualReportingGuidelinesB15Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB15Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB15Title_label_en">B15 - Income tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB15Title_loc" xlink:to="rj-AnnualReportingGuidelinesB15Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB16Title" xlink:label="rj-AnnualReportingGuidelinesB16Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB16Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB16Title_label_en">B16 - Interest</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB16Title_loc" xlink:to="rj-AnnualReportingGuidelinesB16Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB17Title" xlink:label="rj-AnnualReportingGuidelinesB17Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB17Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB17Title_label_en">B17 - Government grants</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB17Title_loc" xlink:to="rj-AnnualReportingGuidelinesB17Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesB18Title" xlink:label="rj-AnnualReportingGuidelinesB18Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesB18Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesB18Title_label_en">B18 - Disclosure</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesB18Title_loc" xlink:to="rj-AnnualReportingGuidelinesB18Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesC1Title" xlink:label="rj-AnnualReportingGuidelinesC1Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesC1Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesC1Title_label_en">C1 - Small non-profit organisations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesC1Title_loc" xlink:to="rj-AnnualReportingGuidelinesC1Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesC2Title" xlink:label="rj-AnnualReportingGuidelinesC2Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesC2Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesC2Title_label_en">C2 - Small fundraising organisations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesC2Title_loc" xlink:to="rj-AnnualReportingGuidelinesC2Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesD3Title" xlink:label="rj-AnnualReportingGuidelinesD3Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesD3Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesD3Title_label_en">D3 - Guidance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesD3Title_loc" xlink:to="rj-AnnualReportingGuidelinesD3Title_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="rjk-all.xsd#rj_AnnualReportingGuidelinesM1Title" xlink:label="rj-AnnualReportingGuidelinesM1Title_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj-AnnualReportingGuidelinesM1Title_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="rj-AnnualReportingGuidelinesM1Title_label_en">M1 - Micro entities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-AnnualReportingGuidelinesM1Title_loc" xlink:to="rj-AnnualReportingGuidelinesM1Title_label_en"/>
+  </link:labelLink>
+</link:linkbase>
