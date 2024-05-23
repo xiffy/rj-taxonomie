@@ -3601,7 +3601,7 @@
   <xsd:element name="ClassesOfProvisionsOtherAxis" id="rj_ClassesOfProvisionsOtherAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ClassesOfPublicOfferingOfBondsOtherFixedIncomeSecuritiesAxis" id="rj_ClassesOfPublicOfferingOfBondsOtherFixedIncomeSecuritiesAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ClassesOfReservesAndFundsAxis" id="rj_ClassesOfReservesAndFundsAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ClassesOfRevaluationReserveAxis" id="rj_ClassesOfRevaluationReserveAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="ClassesOfRevaluationReserveAxis" id="rj_ClassesOfRevaluationReserveAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ClassesOfRightsGrantedNotYetExercisedAxis" id="rj_ClassesOfRightsGrantedNotYetExercisedAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ClassesOfSubsidyIncomeAxis" id="rj_ClassesOfSubsidyIncomeAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ContinuityAxis" id="rj_ContinuityAxis" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
