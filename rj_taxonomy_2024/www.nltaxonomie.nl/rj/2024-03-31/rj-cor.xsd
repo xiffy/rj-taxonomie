@@ -4079,7 +4079,6 @@
   <xsd:element name="SupervisoryDirectorGender" id="rj_SupervisoryDirectorGender" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FinancialStatementOther" id="rj_FinancialStatementOther" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="PublicationWNTInTheConsolidatedStatutoryAccounts" id="rj_PublicationWNTInTheConsolidatedStatutoryAccounts" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="BalanceSheetBeforeAfterAppropriationResults" id="rj_BalanceSheetBeforeAfterAppropriationResults" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationDomain" id="rj_ProfitAppropriationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationBefore" id="rj_ProfitAppropriationBefore" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationAfter" id="rj_ProfitAppropriationAfter" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
