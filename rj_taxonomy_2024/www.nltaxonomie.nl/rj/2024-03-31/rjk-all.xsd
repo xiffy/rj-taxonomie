@@ -6,6 +6,8 @@
       <link:linkbaseRef xlink:type="simple" xlink:href="rjk-all-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="rjk-all-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:linkbaseRef xlink:type="simple" xlink:href="rjk-all-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rjk-all-lab-fr.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rjk-all-lab-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
       <link:roleType roleURI="urn:rj:linkrole:annual-reporting-guidelines-a1" id="rj_AnnualReportingGuidelinesA1">
         <link:definition>A1 - Inleiding, status, doelstellingen en uitgangspunten</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
