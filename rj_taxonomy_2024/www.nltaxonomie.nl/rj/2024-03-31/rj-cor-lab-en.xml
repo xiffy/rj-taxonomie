@@ -14623,5 +14623,7 @@
     <link:loc xlink:type="locator" xlink:href="rj-cor.xsd#rj_CashFlowStatementTitle" xlink:label="rj_CashFlowStatementTitle_loc"/>
     <link:label xlink:type="resource" xlink:label="rj_CashFlowStatementTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash flow statement</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_CashFlowStatementTitle_loc" xlink:to="rj_CashFlowStatementTitle_label_en"/>
+	<link:label xlink:type="resource" xlink:label="rj_SupervisoryDirectorGender_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="rj_SupervisoryDirectorGender_documentation_en">The main function of each supervisory board member is stated in the report of the supervisory board.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_SupervisoryDirectorGender_loc" xlink:to="rj_SupervisoryDirectorGender_documentation_en"/>
   </link:labelLink>
 </link:linkbase>
