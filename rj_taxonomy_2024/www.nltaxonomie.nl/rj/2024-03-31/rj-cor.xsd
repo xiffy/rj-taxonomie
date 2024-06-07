@@ -4005,67 +4005,67 @@
   <xsd:element name="WhatIsOrWillBeDoneWithTheConclusionsOfTheEvaluationDescription" id="rj_WhatIsOrWillBeDoneWithTheConclusionsOfTheEvaluationDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="WhenTheCompanyExpectsToComplyWithTheBestPracticeProvisionAgainDescription" id="rj_WhenTheCompanyExpectsToComplyWithTheBestPracticeProvisionAgainDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="WhichSupervisoryDirectorsHaveBeenFrequentlyAbsentFromMeetingsOfTheSupervisoryBoardDescription" id="rj_WhichSupervisoryDirectorsHaveBeenFrequentlyAbsentFromMeetingsOfTheSupervisoryBoardDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="AgreedPaymentsDueToTermination" id="rj_AgreedPaymentsDueToTermination" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="AmountExceedingMaximumRemuneration" id="rj_AmountExceedingMaximumRemuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="ApplicableMaximumRemunerationInstitution" id="rj_ApplicableMaximumRemunerationInstitution" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="CalendarYear" id="rj_CalendarYear" type="xbrli:gYearItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="Consideration" id="rj_Consideration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="CumulatedRemunerationAntiCumulationApproach" id="rj_CumulatedRemunerationAntiCumulationApproach" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="DoubleCounting" id="rj_DoubleCounting" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="DurationOfTheEmploymentDuringTheCalendarYearEndDate" id="rj_DurationOfTheEmploymentDuringTheCalendarYearEndDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="DurationOfTheEmploymentDuringTheCalendarYearStartDate" id="rj_DurationOfTheEmploymentDuringTheCalendarYearStartDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="DurationOfTheEmploymentDuringTheFinancialYearEndDate" id="rj_DurationOfTheEmploymentDuringTheFinancialYearEndDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="DurationOfTheEmploymentDuringTheFinancialYearStartDate" id="rj_DurationOfTheEmploymentDuringTheFinancialYearStartDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="IndividualMaximumDuringFinancialYear" id="rj_IndividualMaximumDuringFinancialYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="IndividualMaximumPaymentDueToTerminationOfTheEmployment" id="rj_IndividualMaximumPaymentDueToTerminationOfTheEmployment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="IndividualMaximumRemuneration" id="rj_IndividualMaximumRemuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="IndividualMaximumRemunerationNormAmountsPerMonth" id="rj_IndividualMaximumRemunerationNormAmountsPerMonth" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="IndividualMaximumRemunerationPerHour" id="rj_IndividualMaximumRemunerationPerHour" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="JustificationExceedingMaximumRemuneration" id="rj_JustificationExceedingMaximumRemuneration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="MonthsEmploymentDuringFinancialYear" id="rj_MonthsEmploymentDuringFinancialYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOtherWNTInstitution" id="rj_NameOtherWNTInstitution" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NumberOfNonSeniorOfficialsForWhomTotalAmountStatedOfPremiumsContributionsEmployerPaidDeferredFinancingFormOfPurchasingPensionAgreements" id="rj_NumberOfNonSeniorOfficialsForWhomTotalAmountStatedOfPremiumsContributionsEmployerPaidDeferredFinancingFormOfPurchasingPensionAgreements" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
-  <xsd:element name="OtherWNTInstitutionsManagingSeniorOfficialsEmployment" id="rj_OtherWNTInstitutionsManagingSeniorOfficialsEmployment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PaymentsDueToTerminationOfTheEmploymentIncludingUnduePayments" id="rj_PaymentsDueToTerminationOfTheEmploymentIncludingUnduePayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="PaymentsMadeInTheFinancialYearDueToTerminationOfTheEmployment" id="rj_PaymentsMadeInTheFinancialYearDueToTerminationOfTheEmployment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="PositionOrPositions" id="rj_PositionOrPositions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ProvisionsForPostEmploymentBenefits" id="rj_ProvisionsForPostEmploymentBenefits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="ReasonsAndCauseErrorsInRemuneration" id="rj_ReasonsAndCauseErrorsInRemuneration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ReasonsForExceedingMaximumAmountOfRemuneration" id="rj_ReasonsForExceedingMaximumAmountOfRemuneration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ReceivableUnduePaymentsExplanation" id="rj_ReceivableUnduePaymentsExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ReferenceToTheSeniorOfficialsAndCorrespondingStatutoryEntities" id="rj_ReferenceToTheSeniorOfficialsAndCorrespondingStatutoryEntities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="Remuneration" id="rj_Remuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationActivitiesAffiliatedCompanies" id="rj_RemunerationActivitiesAffiliatedCompanies" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationActivitiesSeniorOfficer" id="rj_RemunerationActivitiesSeniorOfficer" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationMaximumOrHigherIndividualRemunerationSeniorOfficer" id="rj_RemunerationMaximumOrHigherIndividualRemunerationSeniorOfficer" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationMaximumOrHigherIndividualRemunerationSeniorOfficerAntiAccumulation" id="rj_RemunerationMaximumOrHigherIndividualRemunerationSeniorOfficerAntiAccumulation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationOtherActivitiesSeniorOfficer" id="rj_RemunerationOtherActivitiesSeniorOfficer" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationPaidDuringFinancialYear" id="rj_RemunerationPaidDuringFinancialYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="RemunerationUnduePayments" id="rj_RemunerationUnduePayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="ScopeOfTheEmploymentDuringTheCalendarYearInHours" id="rj_ScopeOfTheEmploymentDuringTheCalendarYearInHours" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ScopeOfTheEmploymentDuringTheFinancialYearInFTE" id="rj_ScopeOfTheEmploymentDuringTheFinancialYearInFTE" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="StartDateEmployment" id="rj_StartDateEmployment" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="SubtotalRemuneration" id="rj_SubtotalRemuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="TotalAmountPremiumsContributionsEmployerPaidDeferredFinancingFormOfPurchasingPensionAgreements" id="rj_TotalAmountPremiumsContributionsEmployerPaidDeferredFinancingFormOfPurchasingPensionAgreements" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="TotalRemunerationDuringFinancialYear" id="rj_TotalRemunerationDuringFinancialYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="TotalRemunerationPerInstitution" id="rj_TotalRemunerationPerInstitution" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="UnduePayments" id="rj_UnduePayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
-  <xsd:element name="WntInstitutionActivitiesSeniorOfficer" id="rj_WntInstitutionActivitiesSeniorOfficer" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="WntInstitutionAffiliatedCompanies" id="rj_WntInstitutionAffiliatedCompanies" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="WntInstitutionOtherActivitiesSeniorOfficer" id="rj_WntInstitutionOtherActivitiesSeniorOfficer" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="YearOfTerminationOfTheEmployment" id="rj_YearOfTerminationOfTheEmployment" type="xbrli:gYearItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ExistenceOfAnEmploymentRelationship" id="rj_ExistenceOfAnEmploymentRelationship" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="InclusionErrorsInRemunerationSeniorOfficials" id="rj_InclusionErrorsInRemunerationSeniorOfficials" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialAxis" id="rj_NameOfSeniorOfficialAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialConsideredFourYearsAxis" id="rj_NameOfSeniorOfficialConsideredFourYearsAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationAxis" id="rj_NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialRemuneration1700OrLessAxis" id="rj_NameOfSeniorOfficialRemuneration1700OrLessAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedAxis" id="rj_NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialTerminationOfEmploymentAxis" id="rj_NameOfSeniorOfficialTerminationOfEmploymentAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSeniorOfficialWithoutEmploymentAxis" id="rj_NameOfSeniorOfficialWithoutEmploymentAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSeniorOfficialTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NameOfSupervisorySeniorOfficialWithoutEmploymentAxis" id="rj_NameOfSupervisorySeniorOfficialWithoutEmploymentAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_NameOfSupervisorySeniorOfficialWithoutEmploymentTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PositionOfNonSeniorOfficialsAxis" id="rj_PositionOfNonSeniorOfficialsAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_PositionOfNonSeniorOfficialsTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="WNTInstitutionAxis" id="rj_WNTInstitutionAxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#rj_WNTInstitutionTypedMember" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <xsd:element name="NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationTypedMember" id="rj_NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedTypedMember" id="rj_NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="NameOfSeniorOfficialTypedMember" id="rj_NameOfSeniorOfficialTypedMember" type="xsd:string" abstract="false" nillable="true"/>
@@ -4078,7 +4078,7 @@
   <xsd:element name="Unknown" id="rj_Unknown" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="SupervisoryDirectorGender" id="rj_SupervisoryDirectorGender" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FinancialStatementOther" id="rj_FinancialStatementOther" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PublicationWNTInTheConsolidatedStatutoryAccounts" id="rj_PublicationWNTInTheConsolidatedStatutoryAccounts" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+
   <xsd:element name="ProfitAppropriationDomain" id="rj_ProfitAppropriationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationBefore" id="rj_ProfitAppropriationBefore" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationAfter" id="rj_ProfitAppropriationAfter" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
