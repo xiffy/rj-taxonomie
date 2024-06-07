@@ -14462,5 +14462,10 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_SupervisoryDirectorMainFunction_loc" xlink:to="rj_SupervisoryDirectorMainFunction_terseLabel_de"/>
     <link:label xlink:type="resource" xlink:label="rj_SupervisoryDirectorNationality_terseLabel_de" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="de" id="rj_SupervisoryDirectorNationality_terseLabel_de">Nationalität</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_SupervisoryDirectorNationality_loc" xlink:to="rj_SupervisoryDirectorNationality_terseLabel_de"/>
+	<link:loc xlink:type="locator" xlink:href="rj-cor.xsd#rj_DocumentPresentationCurrency" xlink:label="rj_DocumentPresentationCurrency_loc"/>
+    <link:label xlink:type="resource" xlink:label="rj_DocumentPresentationCurrency_label_de" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="de" id="rj_DocumentPresentationCurrency_label_de">Berichtswährung des Dokuments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_DocumentPresentationCurrency_loc" xlink:to="rj_DocumentPresentationCurrency_label_de"/>
+	<link:label xlink:type="resource" xlink:label="rj_DocumentPresentationCurrency_terseLabel_de" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="de" id="rj_DocumentPresentationCurrency_terseLabel_de">Berichtswährung</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj_DocumentPresentationCurrency_loc" xlink:to="rj_DocumentPresentationCurrency_terseLabel_de"/>
   </link:labelLink>
 </link:linkbase>
