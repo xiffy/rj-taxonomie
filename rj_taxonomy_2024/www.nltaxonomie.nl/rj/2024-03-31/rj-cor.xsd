@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsd:schema targetNamespace="https://www.nltaxonomie.nl/rj/2024-03-31/rj-cor" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rj="https://www.nltaxonomie.nl/rj/2024-03-31/rj-cor" xmlns:bw2-titel9="https://www.nltaxonomie.nl/jenv/2024-03-31/bw2-titel9-cor" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:cur="https://xbrl.org/taxonomy/int/currency/2023-01-01/CR/2023-08-23" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:xlink="http://www.w3.org/1999/xlink">
   <xsd:annotation>
     <xsd:appinfo>
@@ -4005,67 +4004,6 @@
   <xsd:element name="WhatIsOrWillBeDoneWithTheConclusionsOfTheEvaluationDescription" id="rj_WhatIsOrWillBeDoneWithTheConclusionsOfTheEvaluationDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="WhenTheCompanyExpectsToComplyWithTheBestPracticeProvisionAgainDescription" id="rj_WhenTheCompanyExpectsToComplyWithTheBestPracticeProvisionAgainDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="WhichSupervisoryDirectorsHaveBeenFrequentlyAbsentFromMeetingsOfTheSupervisoryBoardDescription" id="rj_WhichSupervisoryDirectorsHaveBeenFrequentlyAbsentFromMeetingsOfTheSupervisoryBoardDescription" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <xsd:element name="NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationTypedMember" id="rj_NameOfSeniorOfficialRemuneration1700OrLessAntiCumulationTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedTypedMember" id="rj_NameOfSeniorOfficialRemuneration1700OrMoreAccumulatedTypedMember" type="xsd:string" abstract="false" nillable="true"/>
   <xsd:element name="NameOfSeniorOfficialTypedMember" id="rj_NameOfSeniorOfficialTypedMember" type="xsd:string" abstract="false" nillable="true"/>
@@ -4078,7 +4016,6 @@
   <xsd:element name="Unknown" id="rj_Unknown" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="SupervisoryDirectorGender" id="rj_SupervisoryDirectorGender" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FinancialStatementOther" id="rj_FinancialStatementOther" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
-
   <xsd:element name="ProfitAppropriationDomain" id="rj_ProfitAppropriationDomain" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationBefore" id="rj_ProfitAppropriationBefore" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ProfitAppropriationAfter" id="rj_ProfitAppropriationAfter" type="dtr:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
